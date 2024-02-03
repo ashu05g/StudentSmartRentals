@@ -1,46 +1,50 @@
 # StudentSmartRentals
-![StudentSmart Rentals Logo](path-to-the-logo-image)
+![StudentSmart Rentals Logo](pics/Logo2WithoutBG.png)
 
-## Purpose of Project
+# Product Overview
 
-The Rental & Services Management System project is dedicated to facilitating the moving-in process for international and in-state students. With a special focus on those attending Indiana University of Bloomington, the platform offers comprehensive property listings and centralizes essential information, thereby streamlining the apartment search process. It also provides tools for informed decision-making and simplifies access to moving-in services, fostering a community feel for students in transition.
+- The Rental & Services Management System project, driven by the founder's experiences, aims to make the moving-in process easier for local and international students.
+- It addresses gaps in the rental platform market, focusing on apartment rentals and related services tailored for students at Indiana University of Bloomington. 
+- The system features extensive property listings, including details like proximity to essential amenities, thus centralizing information and reducing the need to visit multiple platforms.
+- It also offers tools such as multimedia content, map views, and user reviews to aid in decision-making, and simplifies the access to services like transportation and utilities setup.
+- By integrating messaging and chat, it creates a community space that enhances the experience for international students during a pivotal life transition.
 
-## Approach
+# System Requirements
 
-Our approach integrates the MERN stack with Agile methodology, emphasizing in-house development to cater to the unique needs of IUB off-campus students. With phased delivery and adaptive technology evaluation, we ensure a responsive and tailored system that enhances the property rental and moving-in experience for international students.
+- **Operating Environment**: The system is designed for web environments and should perform seamlessly across various devices and platforms.
+- **Responsive Web Application**: Built as a web application using React, with backend technologies in line with the MERN stack.
+- **Database**: Utilizes MongoDB for storing apartment listings, user profiles, and transactions.
+- **Authentication and Security**: Incorporates Firebase for secure user authentication, including MFA.
+- **Client-Side (Frontend)**: The frontend is developed with React for user interaction.
+- **Server-Side (Backend)**: Managed by Node.js and Express.js, it handles requests and manages authentication through Firebase.
 
-## Work Completed
+# Product Installation
 
-- Login and Registration
-- Search, Filters, and Recommendation System
-- Maps and Multimedia
-- UI/UX Design
-- Messaging and Chat
-- Payment Gateway Integration
+- **Initial Setup**: As a web-based application, no traditional installation is necessary. It is accessed via a web browser.
+- **Dependencies**: A current browser version is required to support the application's web technologies.
+- **Software Support Packages**: Backend modifications require knowledge of the MERN stack, with potential server-side installations of Node.js, MongoDB, etc.
+- **Python Dependency**: If Python is needed, installation instructions can be found on the official Python website.
 
-## Lessons Learned and Best Practices
+# Product Operation
 
-**Efficiency in Full Stack Integration:**
-Achieving a seamless integration between the front-end and back-end with the MERN stack, highlighting the importance of regular system optimizations.
-
-**User-Centric Design Importance:**
-A focus on user-centric design, iteratively improved through usability testing and user feedback, is essential for user satisfaction.
-
-**Optimization of Search and Recommendations:**
-A dynamic search and recommendation system, regularly refined with user behavior analytics and machine learning, is critical for user convenience.
-
-**Integration of Maps and Multimedia:**
-The integration of maps and multimedia is key to property visualization, requiring optimized performance and exploration of emerging technologies for an immersive experience.
-
-**Effective Messaging and Chat Systems:**
-Real-time communication tools with an emphasis on reliability, privacy, and security are fundamental to a streamlined user experience.
-
-**Security in Payment Integration:**
-Maintaining high-security standards in payment integration is crucial for building user trust, necessitating transparency in payment processes.
-
-**Agility in Development for Continuous Improvement:**
-An agile development process is indispensable for adapting to evolving technology and user needs, ensuring regular software updates and responsiveness to feedback.
-
-**Scalability and Performance as Growth Factors:**
-Scalability is key to maintaining performance as the user base grows, requiring an architecture that is designed for scalability, efficient database management, and caching strategies.
-
+1. **Public Interface and User Registration**:
+   - Offers a public interface for displaying available rentals.
+   - Features a secure registration and login system with password management and encryption standards.
+    ![pic1](pics/HomePage.png)
+2. **Apartment Listing and Search Functionality**:
+   - Detailed apartment listings are available with a robust search feature managed by the SearchService class.
+    ![pic1](pics/Search.png)
+3. **Maps and Location Services**:
+   - Integrates mapping services to display property locations and proximity details.
+    ![pic1](pics/PropertyView.png)
+4. **User Profile Management**:
+   - Allows users to manage personal information, lease details, and maintenance requests.
+    ![pic1](pics/UserProfile.png)
+5. **Maintenance Requests and Insurance Information**:
+   - Users can submit maintenance requests and access rental insurance information.
+    ![pic1](pics/MaintaianceRequest.png)
+6. **User Interface and Accessibility**:
+   - Adheres to design principles for a consistent and accessible experience, focusing on data security and user-friendly navigation.
+7. **User Chat**:
+   - Provides a search function for finding users to chat with, and a chat box for real-time messaging and interaction.
+    ![pic1](pics/Chat.png)
